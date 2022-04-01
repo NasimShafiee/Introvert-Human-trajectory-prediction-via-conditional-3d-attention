@@ -1,4 +1,3 @@
-# Introvert-Human-trajectory-prediction-via-conditional-3d-attention
 # Introvert: Human Trajectory Prediction via conditional 3D attention
 
 ## Overview

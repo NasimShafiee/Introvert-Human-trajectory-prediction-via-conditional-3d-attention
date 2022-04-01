@@ -1,4 +1,3 @@
-# Introvert-Human-trajectory-prediction-via-conditional-3d-attention
 # Introvert: Human Trajectory Prediction via conditional 3D attention
 
 ## Overview
@@ -66,5 +65,4 @@ If you find the project helpful, we would appreciate if you cite the works:
 ## References
 [1] Lerner, Alon, Yiorgos Chrysanthou, and Dani Lischinski. "Crowds by example." Computer graphics forum. Vol. 26. No. 3. Oxford, UK: Blackwell Publishing Ltd, 2007.
 [2] Pellegrini, Stefano, et al. "You'll never walk alone: Modeling social behavior for multi-target tracking." 2009 IEEE 12th international conference on computer vision. IEEE, 2009.
-
 

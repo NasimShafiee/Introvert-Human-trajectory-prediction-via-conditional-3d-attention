@@ -37,15 +37,17 @@ Now, in traj_pred.py find "# DataBase Variables" and update the data_traj_pred p
 ## Training and Testing 
 To run the code:
 ```
-cd codes
-CUDA_VISIBLE_DEVICES=0 python traj_pred.py --dataset="zara_01"
-CUDA_VISIBLE_DEVICES=0 python traj_pred.py --dataset="zara_02"
-CUDA_VISIBLE_DEVICES=0 python traj_pred.py --dataset="university"
-CUDA_VISIBLE_DEVICES=0 python traj_pred.py --dataset="eth"
-CUDA_VISIBLE_DEVICES=0 python traj_pred.py --dataset="hotel"
+bash run.sh
 ```
-
-
+or
+```
+for norm in {"L2",}
+do
+	for dataset in {"CUB",}
+	do
+		CUDA_VISIBLE_DEVICES=1 python optimization_attack_dazlepp_test2.py --dataset $dataset --norm $norm
+	done
+done
 
 ---
 ## Citation
